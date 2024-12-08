@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body{
+      background-color: bisque;
+    }
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .card{
+      display: flex;
+      flex-direction: column;
+      justify-content:  center ;
+      align-items: center;
+      width:300px;
+      margin-inline: auto;
+      margin-top:50px;
+      background-color: white;
+      padding: 15px;
+      border-radius: 10px;
+
+    }
+    .QrImage{
+      width: 100%;
+      border-radius: 10px;
+    }
+    .QRTitle , .QRDescription{
+      text-align: center;
+      
+    }
+  </style>
+</head>
+<body>
+<div class="card">
+  <img src="./images/image-qr-code.png" class="QrImage"  alt="Qrcodeimage">
+  <h2 class="QRTitle">improve your front end skills by building projects</h2>
+  <p class="QRDescription">scan QR Code to visit front end mentors and take your codeing skills to nect level</p>
+</div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Hazem Hamdy</a>.
+  </div>
+</body>
+</html>
